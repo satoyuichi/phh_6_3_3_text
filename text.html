@@ -5,12 +5,13 @@
     <title>Document</title>
   </head>
   <body>
-    <div id="result_text">
-      <p style="color: Red">設定されていません!</p>
-    </div>
-    <div id="result_html">
-      <p style="color: Red">設定されていません!</p>
-    </div>
+    <form>
+      <label for="name">名前：</label>
+      <input id="name" name="name" type="text" size="30" />
+      <input id="btn" name="button" type="button" value="送信" />
+    </form>
+    <div id="result"></div>
+
     <script src="text.js"></script>
   </body>
 </html>
